@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whatsapp clone</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  />
+    <style>
+      .container {
+        height: 720px;
+        width: 1500px;
+        display: flex;
+        border: 2px solid;
+        color: #a2b4c0;
+      }
+      #box1 {
+        width: 5%;
+        border: 2px solid;
+        background-color: #222e35;
+        border: #222e35;
+      }
+      .icon{
+        display: flex;
+    flex-direction: column;
+    border: 2px;
+    font-size: 25px;
+   
+    /* border: 2px solid; */
+    align-items: center;
+    justify-content: space-around;
+ 
+      }
+      .four_icon{
+        margin: 12px;
+       font-size: 23px;
+        height: 292px;
+      }
+      .four_icon img{
+      height: 40px; 
+      width: 30px;
+      background-color: black";
+      }
+      .message{
+        padding: 14px;
+        background-color: rgba(255,255,255,0.10);
+        border-radius: 50%;
+      }
+      .two_icon{
+        height: 100px;
+        margin-top: 314px;
+      }
+      #box2 {
+        width: 31%;
+        padding: 21px 8px 0px 9px;
+        color: white;
+        background-color: #111b21;
+      }
+      .chats_three_doubt {
+        height: 58px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+      }
+      .searchbar{
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        border-radius: 11px;
+        background-color: #202c33;
+      }
+      .search_icon{
+        font-size: 15px;
+        margin-left: 20px;
+        color: #8696a0;
+      }
+      b{
+        font-size: 33px;
+      }
+      input {
+        height: 35px;
+        border: none;
+        width: 80%;
+        background-color: #202c33;
+        margin-left: 43px;
+        color: #8696a0;
+        font-size: 20px;
+   
+      }
+      .four_buttons button {
+        font-size: 17px;
+        border-radius: 25px;
+        border: none;
+        padding:5px 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #8696a0;
+        background-color: #202c33;
+      }
+      .contact {
+        height: 71px;
+        display: flex;
+        align-items: center;
+        
+      }
+      .circle {
+        border-radius: 50%;
+        border: 2px solid black;
+        width: 48px;
+        height: 49px;
+        background-color: yellow;
+      }
+      .name_message {
+        /* display: flex; */
+        height: 100%;
+        margin-left: 15px;
+        border-top: 2px solid rgba(134,150,160,0.15);
+        /* justify-content: space-around; */
+      }
+      .name_date{
+          display: flex;
+          width: 391px;
+          height: 27px;
+          margin-top: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: space-between;
+      }
+      p{
+        margin: 0px;
+        color: #8696a0;
+      }
+      li {
+        margin-left: 200px;
+        list-style: none;
+        color: #8696a0;
+        font-size: 12px;
+      }
+      h3 {
+        font-size: 17px;
+    margin: 0px;
+    font-weight: 100;
+    font-family: arial;
+      }
+      #box3{
+        width: 70%;
+        background-color: #202c33;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .box_3{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      .box_3 h1{
+        font-weight: 2;
+        font-size: 35px;
+      }
+      .box_3 button{
+          height: 40px;
+          width: 200px;
+          margin-top: 30px;
+          font-size: 15px;
+          color:black;
+          background-color:rgb(9, 200, 162);
+          border: none;
+          border-radius: 30px;
+      }
+      .img{
+        height: 200px;
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box1" class="box">
+        <div class="four_icon icon">
+          <i class="fa-solid fa-message" style="padding: 14px; border-radius: 50%; background-color: rgba(134,150,160,0.15);"></i>
+          <i class="fa-brands fa-creative-commons-sa"></i>
+          <i class="fa-regular fa-comment-dots"></i>
+          <i class="fa-solid fa-users"></i>
+          <img src="Meta_AI_logo.png ">
+       </div>
+       <div class="two_icon icon">
+        <i class="fa-solid fa-gear"></i>
+        <div class="circle"></div>
+      
+       </div>
+    </div>
+      <div id="box2" class="box">
+        <section class="section1">
+          <div class="chats_three_doubt">
+            <b>Chats</b>
+            <div>
+              <i class="fa-solid fa-message" style="margin-right: 33px;font-size: 20px;   color: #8696a0;" ></i>
+              <i class="fa-solid fa-ellipsis-vertical" style="font-size: 25px; margin-right: 10px;   color: #8696a0;"></i>
+            </div>
+          </div>
+          <div  class="searchbar"><label for="icon" ><i class="fa-solid fa-magnifying-glass search_icon"></label></i><input id="icon" placeholder="search" /></div>  
+          <div class="four_buttons">
+            <button>All</button>
+            <button>Unread</button>
+            <button>Favourite</button>
+            <button>Groups</button>
+          </div>
+        </section>
+        <section class="contact_list section2">
+          <div class="contact">
+            <i class="fa-solid fa-box-archive" style="font-size: 25px;
+                 margin: 0pc 10px 0px 19px;color: green;"></i>
+              <div class="name_message" style=" border: none; ">
+              <div class="name_date" style="margin-top: 21px;"><h3>Archived</h3></div>      
+              </div>
+          </div>
+          <div class="contact">
+            <div class="circle"></div>
+               <div class="name_message">
+                  <div class="name_date">
+                    <h3>vaishnavi sen(you)</h3>
+                    <li>10:22 am</li>
+                  </div> 
+                  <p>this is me</p> 
+               </div>
+          </div>
+        
+        <div class="contact">
+          <div class="circle"></div>
+           <div class="name_message">
+                <div class="name_date">
+                  <h3>Doremon</h3>
+                  <li>12:15 am</li>
+                </div> 
+                <p>hello</p> 
+           </div>
+         </div>
+      <div class="contact">
+        <div class="circle"></div>
+           <div class="name_message">
+              <div class="name_date">
+                <h3>shiyan</h3>
+                <li>Yesterday</li>
+              </div> 
+              <p>hello</p> 
+           </div>
+      </div>
+    <div class="contact">
+      <div class="circle"></div>
+          <div class="name_message">
+            <div class="name_date">
+              <h3>Aryan sen</h3>
+              <li>Wednesday</li>
+            </div> 
+            <p>payment kr diya</p> 
+         </div>
+   </div>
+  <div class="contact">
+    <div class="circle"></div>
+     <div class="name_message">
+          <div class="name_date">
+            <h3>Aana</h3>
+            <li>Wednesday</li>
+          </div> 
+          <p>byy</p> 
+    </div>
+</div>
+<div class="contact">
+  <div class="circle"></div>
+   <div class="name_message">
+        <div class="name_date">
+          <h3>Tushar</h3>
+          <li>Saturday</li>
+        </div> 
+        <p>ok</p> 
+  </div>
+</div>
+<div class="contact">
+  <div class="circle"></div>
+   <div class="name_message">
+        <div class="name_date">
+          <h3>Tanisha kushwah</h3>
+          <li>Sunday</li>
+        </div> 
+        <p>thik h</p> 
+  </div>
+</div>
+</section>
+</div>
+<div id="box3">
+  <div class="box_3">
+    <img class="img" src="whatapp.png">
+    <h1>Download WhatsApp for Windows</h1>
+    <p>Make calls,share your screen and get a faster experience when you download the Windows app.</p>
+    <button>Get from Microsoft Store</button>
+  </div>
+ <p> <i class="fa-solid fa-lock"></i>Your personal messages are end to end encryptad</p>
+</div>
+  </body>
+</html>

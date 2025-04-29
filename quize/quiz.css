@@ -27,29 +27,34 @@ top: 60px;
 width: 80%;
 display: grid;
 grid-template-columns: 40% 40% 20%;
-box-shadow:4px 4px 19px   #928787;
+box-shadow: 8px 10px 19px #d4d4d4;
 }
 .heading{
-    border: 2px solid;
     height: 50px;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: #D8D8D85c;
 } 
+.heading h1{
+     font-size: 19px;
+    font-weight: 900;
+}
 .quize-input{
-height: 100px;
-border: 2px solid;
+padding: 10px;
+height: 80px;
+border: 1px solid rgb(214, 209, 198); /
 }
 .button button {
-height: 50px;
-width: 90px;
+height: 45px;
+width: 100px;
+font-size: 15px;
 padding: 15px;
-font-weight: 500;
+font-weight: 700;
 border-radius: 5px;
 color:white;
-background-color: rgb(225, 225, 25);
-border: 2px solid black;
+border: none;
+background-color:orange;
 position: relative;
 top: 20px;
 left: 30px;
@@ -113,7 +118,6 @@ img{
     width: 100%;
 }
 footer{
-height: 60vh;
 position: relative;
 top: 250px;
 color: #dedede;
@@ -123,11 +127,7 @@ background-color: #341a64;
 display: flex;
 padding: 50px 60PX;
 justify-content: space-around;
-border: 2px solid black;
-}
-.footer{
-   /* height: 100%; */
-    /* border: 2px solid black; */
+/* border: 2px solid black; */
 }
 .footer-logo{
     width: 26%;
@@ -141,12 +141,23 @@ height: 50px;
 width: 60px;
 }
 .social-media{
-    display: inline-block;
+    display:inline-flex;
 }
-.social-media a {
-    color:yellow;
-    font-size: 37px;
+.social-media li {
+    list-style: none;
+    margin-left: 10px;
+overflow: hidden;
+text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 2px solid yellow;
+    border-radius: 50%;
 }
+.social-media li a i{
+    background-color:rgb(243, 197, 15);
+   font-size: 30px;
+}
+
 .footer-pages-find {
     font-family: Montserrat-Bold;
     display: flex ;
@@ -173,13 +184,16 @@ width: 60px;
     margin-top: 10px;
     border-radius: 6px;
 }
+.input-tag{ 
+    padding-left:15px ;
+}
 .subscribe{
     background-color: #0d6efd;
     color: white;
 }
 .horizontal-line{
     text-align: center;
-    height: 60px;
+    height: 70px;
     margin: 0px 3%;
-    border: 1px solid rgb(190, 9, 9);
+    border-top: 1px solid white;
 }
