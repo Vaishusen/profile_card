@@ -1,0 +1,185 @@
+BODY{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #f7f7f7;
+
+}
+header{
+    height: 8vh;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: linear-gradient(21deg, #341a64 0, #690782 74%);
+}
+nav a{
+margin-left:25px;
+text-decoration: none;
+color: white;
+}
+#section1{
+display: flex;
+justify-content: center;
+position: relative;
+top: 60px;
+
+}
+.quiz-test{
+width: 80%;
+display: grid;
+grid-template-columns: 40% 40% 20%;
+box-shadow:4px 4px 19px   #928787;
+}
+.heading{
+    border: 2px solid;
+    height: 50px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #D8D8D85c;
+} 
+.quize-input{
+height: 100px;
+border: 2px solid;
+}
+.button button {
+height: 50px;
+width: 90px;
+padding: 15px;
+font-weight: 500;
+border-radius: 5px;
+color:white;
+background-color: rgb(225, 225, 25);
+border: 2px solid black;
+position: relative;
+top: 20px;
+left: 30px;
+}
+#section2{
+    position: relative;
+    top: 190px;
+    left: 99px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 20px 5px;
+}
+article{
+    height: 248px;
+    width: 270px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    transition: box-shadow 0.6s ease;
+}
+article:hover{
+    box-shadow: 4px 4px 25px rgb(196, 182, 182);
+}
+.skill-section{
+    display: flex;
+}
+.skill-section h6{
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #dedede;
+}
+.take-quiz{
+border-top: 2px solid  #ccc;;
+}
+.take-quiz a{
+    position: relative;
+    top: 8px;
+    font-weight: 700;
+    font-family: Montserrat-Medium;
+    color: #690782;
+}
+.data p{
+    display: flex;
+    color: #646464;
+    font-family: Montserrat-Regular;
+    justify-content: space-between;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+height: 60vh;
+position: relative;
+top: 250px;
+color: #dedede;
+background-color: #341a64;
+}
+.footer-section{
+display: flex;
+padding: 50px 60PX;
+justify-content: space-around;
+border: 2px solid black;
+}
+.footer{
+   /* height: 100%; */
+    /* border: 2px solid black; */
+}
+.footer-logo{
+    width: 26%;
+    font-family: arial;
+    text-align: left;
+    font-size: 12px;
+    line-height: 2.1;
+}
+.coderdaily-img{
+height: 50px;
+width: 60px;
+}
+.social-media{
+    display: inline-block;
+}
+.social-media a {
+    color:yellow;
+    font-size: 37px;
+}
+.footer-pages-find {
+    font-family: Montserrat-Bold;
+    display: flex ;
+    line-height: 1.7;
+    flex-direction: column;
+    width: 14%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-newsletter{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-pages-find li{
+   list-style: none;
+}
+.footer-newsletter p{
+    font-size: 10px;
+    margin: 9px;
+}
+.footer-newsletter .input-subscribe{
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.subscribe{
+    background-color: #0d6efd;
+    color: white;
+}
+.horizontal-line{
+    text-align: center;
+    height: 60px;
+    margin: 0px 3%;
+    border: 1px solid rgb(190, 9, 9);
+}
