@@ -8,6 +8,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- main css link -->
     <link rel="stylesheet" href="homepage.css" />
   </head>
@@ -37,7 +43,7 @@
         </p>
 
         <div class="media-link">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
           <a href=""><i class="fa-brands fa-square-twitter"></i></a>
           <a href=""><i class="fa-brands fa-square-instagram"></i></a>
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -67,59 +73,127 @@
           apply and expand technical knowledge through practical projects and
           collaborative
         </p>
-        <a href="">read more</a>
+        <a href="#">read more</a>
       </div>
     </section>
     <!-- skill page design -->
     <section id="section3" class="skills">
-      <article id="python" class="skill"><a>python</a></article>
-      <article id="react" class="skill"><a>react</a></article>
-      <article id="dsa" class="skill"><a>dsa c++</a></article>
-      <article id="git" class="skill"><a>git/github</a></article>
+      <article id="python" class="skill">
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+          distinctio quo vel natus saepe impedit id, ullam inventore commodi,
+          temporibus mollitia nemo quia molestias aperiam delectus porro illum
+          harum. Accusamus.
+        </p>
+      </article>
+      <article id="react" class="skill">
+        <i class="fa-solid fa-palette"></i>
+        <h2>UI/UX Designing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          cumque eos natus et voluptatem in eaque tempora id vitae! Consequuntur
+          mollitia incidunt reprehenderit explicabo quaerat vel deserunt
+          laboriosam, molestiae expedita.
+        </p>
+      </article>
+      <article id="dsa" class="skill">
+        <i class="fa-solid fa-database"></i>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          aliquam, minima porro perferendis qui dicta nemo ex sapiente quasi
+          sunt dolores numquam repudiandae id dignissimos vitae ipsa non
+          doloribus enim.
+        </p>
+      </article>
+      <article id="git" class="skill">
+        <i class="fa-brands fa-python"></i>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          temporibus ipsam commodi, est quos ullam autem obcaecati consectetur
+          vel ipsum at consequuntur perspiciatis incidunt eum quisquam delectus!
+          Soluta, adipisci rem?
+        </p>
+      </article>
     </section>
     <!-- portfolio page -->
     <section id="section4" class="portfolio">
-      <article class="project">
-        <div class="calculater pro">
-          <img src="calculator.jpeg" />
-        </div>
-      </article>
-      <article class="project">
-        <div class="list pro">
-          <img src="todo-list.png" />
-        </div>
-      </article>
-      <article class="project">
-        <div class="crud pro">
-          <img src="CRUD.jpeg" />
-        </div>
-      </article>
+      <div class="project-section">
+        <article class="project">
+          <div class="calculater pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
+        <article class="project">
+          <div class="list pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
+        <article class="project">
+          <div class="crud pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
 
-      
-      <article class="project">
-        <div class="clone-zometo pro">
-          <img src="zometo.jpg" />
-        </div>
-        <div class="cover-layer">
-          <h1>HELLO this is vaishnavi sen</h1>
-          <p>i am fulll stack devloper</p>
-        </div>
-      </article>
+        <article class="project">
+          <div class="clone-zometo pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
 
-
-
-
-
-      <article class="project">
-        <!-- /*experiments*/  -->
-       
-      </article>
-      <article class="project">
-        <div class="gallery pro">
-          <img src="gallery.jpeg" />
-        </div>
-      </article>
+        <article class="project">
+          <div class="gallery pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
+        <article class="project">
+          <div class="gallery pro">
+            <img src="todo-list.png" />
+          </div>
+          <div class="cover-layer">
+            <button><a href="#">click here</a></button>
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="Contact"></section>
+    <section class="Contact" id="section5">
+      <footer>
+        <div><h1>CONTACT ME</h1></div>
+        <div class="contact-information">
+          <div class="full-name user-info">
+            <input type="text" placeholder="Full Name" />
+          </div>
+          <div class="email-address user-info">
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="mobile-number user-info">
+            <input type="number" placeholder="Mobile Number" />
+          </div>
+          <div class="email-subject user-info">
+            <input type="text" placeholder="Email Subject" />
+          </div>
+          <div class="your-message user-info">
+            <textarea id="description" placeholder="Your message"></textarea>
+          </div>
+        </div>
+        <button>Send Message</button>
+      </footer>
+    </section>
   </body>
 </html>

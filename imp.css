@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #333;
+    overflow-x: hidden;
+      border: 2px solid black;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    padding: 100px 20px 50px;
+      border: 2px solid black;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color: #e23744;
+    margin-bottom: 10px;
+      border: 2px solid black;
+  }
+  
+  .hero h1 span {
+    font-weight: bold;
+      border: 2px solid black;
+  }
+  
+  .hero p {
+    color: #5f5f5f;
+    font-size: 16px;
+    line-height: 1.5;
+      border: 2px solid black;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+      border: 2px solid black;
+  }
+  
+  .stat-box {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    padding: 20px 30px;
+    border-radius: 15px;
+      border: 2px solid black;
+  }
+  
+  .stat-box h2 {
+    color: #333;
+    margin: 0;
+      border: 2px solid black;
+  }
+  
+  .stat-box p {
+    color: #888;
+    margin: 5px 0 0;
+    font-size: 14px;
+      border: 2px solid black;
+  }
+  
+  /* Decorative food images */
+  .food {
+    position: absolute;
+    width: 100px;
+    z-index: -1;
+      border: 2px solid black;
+  }
+  
+  .burger {
+    top: 200px;
+    left: 100px;
+      border: 2px solid black;
+  }
+  
+  .momos {
+    top: 50px;
+    right: 100px;
+      border: 2px solid black;
+  }
+  
+  .pizza {
+    bottom: 100px;
+    right: 150px;
+      border: 2px solid black;
+  }
+  
+  .tomato1 {
+    bottom: 200px;
+    left: 120px;
+    width: 30px;
+
+      border: 2px solid black;
+  }
+  
+  .tomato2 {
+    top: 200px;
+    right: 200px;
+    width: 30px;
+    border: 2px solid black;
+  }
+  

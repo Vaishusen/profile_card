@@ -1,0 +1,57 @@
+#section2{
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    height: 120vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-image: url();
+}
+.heading-discription{
+    width: 100vw;
+    /* height: 35%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+     width: 25%;
+     border: 2px solid red;
+}
+.heading h1{
+margin: 0px;
+}
+.discription{
+    text-align: center;
+    width: 25%;
+    border: 2px solid red;
+}
+.restaurants-cities-order{
+    height: 15%;
+    border: 2px solid red;
+}
+.rco-flexcontainer{
+    display: inline-flex;
+    border-radius: 36px;
+    border: 2px solid black;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    border: 2px solid pink;
+    border-radius: 15px;
+}
+.about-zometo{
+    padding: 20px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+}
+.about-zometo div h1,p{
+    margin: 0px;
+}
+.restaurants-cities-order img{
+    height: 2.3rem;
+    width: 35px;
+}

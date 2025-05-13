@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.upper-box{
+    height: 80vh;
+    padding-top: 80px;
+    background-color: #0a001b;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.upper-box1{
+    width: 60%;
+    height: 100%;
+    padding: 5rem ;
+    color: antiquewhite;
+     text-align: left;
+     animation: fadein 1s ease-in-out ;
+}
+.upper-box1 h1{
+    font-size: 6rem;
+    font-weight: 100;
+}
+.upper-box1 p{
+    font-size: 1.5rem;
+}
+.upper-box2{
+      width: 40%;
+    height: 100%;
+
+}
+.upper-box2 img{
+height: 70%;
+width: 80%;
+animation: fadein 1s ease-in-out ;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.lower-box {
+    height: 30vh;
+}
+.lower-box svg path{
+        fill: #0a001b;
+}
+.first-box{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-box h1{
+font-size: 3rem;
+}
+.second-box{
+   height:170vh;
+   width:80vw ;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:white;
+    margin: 0vh 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 48% 48%;
+    gap: 25px 50px;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 6px rgba(154, 208, 225,0.3);
+    transition: transform 0.5s ease;
+}
+article:hover{
+    transform: scale(1.1);
+}
+#portfolio{
+    background-image: url(https://marketplace.canva.com/EAFxweoG8ww/1/0/1131w/canva-black-and-white-simple-geometric-content-creator-student-portfolio-KydeMOdt6B0.jpg);
+    background-size: cover;
+}
+.discription{
+    margin-top: 60%;
+    padding-left:20px ;
+    /* height: 70%; */
+    /* line-height: 1.5; */
+    box-shadow: 0px 0px 60px 60px white;
+    font-size: 1.2rem;
+    background-color:white;
+}
+.discription p{
+    line-height: 1.4;
+}
+.discription i{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+#zometo{
+    background-image: url(https://observenow.com/wp-content/uploads/2024/08/Zomato-Bans-AI.png);
+      background-position: center   -90px;  
+}
+#calculater{
+    background-image: url(https://cdn.sanity.io/images/anl9abaw/production/b66ffc7f38a5fcbd048d5b7f701167a0d373544e-1920x1280.png?w=3840&q=75&fit=clip&auto=format);
+     background-position: center -150px;  
+      background-size: cover;
+}
+#to-do-list{
+    background-image: url(https://img.freepik.com/free-vector/colorful-todo-list-illustration_1308-173328.jpg);
+        background-position: center -10px;  
+      background-size: 400px;
+}
+#clone{
+    background-image: url(https://blog.back4app.com/wp-content/uploads/2019/11/Create-WhatsApp-Clone-2.png);
+     background-size: 350px;
+}
+#crude-operation{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*DI5wwLcQV-b3erfLIbvfFQ.jpeg);
+     background-size: 400px;
+}
+.third-box{
+    height: 30vh;
+    width: 100vw;
+    position: relative;
+ }
+.third-box svg{
+    fill: #0a001b;;
+    transform: rotatex(180deg);
+}
+.footer-box{
+    height: 20vh;
+    width: inherit;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    justify-content: end;
+    align-items: center;
+   background-color: #0a001b;
+}
+.footer-box i{
+    font-size: 2rem;
+    color:wheat;
+    background-color:none;
+    margin-right: 2rem;
+}
